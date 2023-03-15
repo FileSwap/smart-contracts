@@ -111,8 +111,8 @@ library SafeMath {
 contract FilecoinERC20 is IFilecoinERC20 {
     using SafeMath for uint;
 
-    string public constant name = 'Fileswsap LPs';
-    string public constant symbol = 'FIL-LP';
+    string public constant name = 'FEX LPs';
+    string public constant symbol = 'FEX-LP';
     uint8 public constant decimals = 18;
     uint  public totalSupply;
     mapping(address => uint) public balanceOf;

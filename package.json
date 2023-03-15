@@ -1,0 +1,14 @@
+{
+  "name": "Fileswap-Exchange-Protocol",
+  "description": "Exchange contracts for Fileswap",
+  "version": "2.0.0",
+  "license": "GPL-3.0/MIT",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@uniswap/lib": "4.0.1-alpha"
+  }
+}
